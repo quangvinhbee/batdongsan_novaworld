@@ -1,0 +1,11 @@
+/*
+Theme Name: www.vinhxd.com
+Theme URI: https://www.vinhxd.com/
+Description: Đây là giao diện OceanWP child, được tùy biến và bổ sung một số chức năng để phù hợp với yêu cầu khách hàng. Những chức năng nhỏ có sẵn trong giao diện: + Vô hiệu hóa Gutenberg - trình soạn thảo *tầm bậy * của wordpress + Seting page full width mặc định + Thêm meta box của oceanwp cho CTP + Vô hiệu hóa chức năng upload video +  chỉnh tương thích oceanwp với các tool tạo template cho archive CTP, Single CTP + Custom local font(nếu có). Mọi hành vi nhân bản, copy giao diện này đều là ... sai và tất nhiên cũng không được pháp luật nào bảo vệ cả.
+Author: Vĩnh XD
+Author URI: https://www.vinhxd.com
+Template: oceanwp
+Version: 1.1
+*/
+
+/* Parent stylesheet should be loaded from functions.php not using @import */
