@@ -418,6 +418,17 @@ table tr td:first-child {
     }
 }
 
+footer .container {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto;
+}
+
+footer #footer-widgets {
+    background-color: #222;
+    padding: 0 0 !important;
+    margin: 0;
+}
 
 
 
