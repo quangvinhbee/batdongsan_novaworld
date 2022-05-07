@@ -1,5 +1,5 @@
 
 setTimeout(function () {
     console.log('modal')
-    $('#exampleModal').modal();
-}, 200);
+    $('#exampleModalLong').modal();
+}, 2000);
