@@ -1,7 +1,8 @@
 
 setInterval(function () {
-    $('#exampleModalLong').modal();
-}, 20000);
+    var check =window.localStorage.getItem('form')
+    if(!check) $('#exampleModalLong').modal();
+}, 30000);
 
 const scriptURL = 'https://script.google.com/macros/s/AKfycbyzF4Tq4lvPHyDFhmMdYoSUJUbU-uqdqXTl7DGIa0YZLR_bkZjNk277EnlcoBO4QaBm/exec'
 const form = document.forms['google-sheet']
@@ -18,6 +19,7 @@ for (const item in forms) {
             .then(response => {
                 $('#tksForm').modal();
                 $('#exampleModalLong').modal('hide');
+                window.localStorage.setItem('form',true)
              })
             .catch(error => console.error('Error!', error.message))
     })
