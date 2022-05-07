@@ -1652,7 +1652,7 @@ a {
     background-color: transparent !important;
     background-clip: padding-box;
     border: 0px solid rgba(0, 0, 0, .2) !important;
-    width: 600px !important;
+    /* width: 600px !important; */
 }
 
 .modal-dialog {
