@@ -12,7 +12,8 @@
 .wpcf7 form .wpcf7-response-output {
 	margin: 2em 0.5em 1em;
 	padding: 0.2em 1em;
-	border: 2px solid #00a0d2; /* Blue */
+	border: 2px solid #00a0d2;
+	/* Blue */
 }
 
 .wpcf7 form.init .wpcf7-response-output,
@@ -22,21 +23,25 @@
 }
 
 .wpcf7 form.sent .wpcf7-response-output {
-	border-color: #46b450; /* Green */
+	border-color: #46b450;
+	/* Green */
 }
 
 .wpcf7 form.failed .wpcf7-response-output,
 .wpcf7 form.aborted .wpcf7-response-output {
-	border-color: #dc3232; /* Red */
+	border-color: #dc3232;
+	/* Red */
 }
 
 .wpcf7 form.spam .wpcf7-response-output {
-	border-color: #f56e28; /* Orange */
+	border-color: #f56e28;
+	/* Orange */
 }
 
 .wpcf7 form.invalid .wpcf7-response-output,
 .wpcf7 form.unaccepted .wpcf7-response-output {
-	border-color: #ffb900; /* Yellow */
+	border-color: #ffb900;
+	/* Yellow */
 }
 
 .wpcf7-form-control-wrap {
@@ -44,7 +49,8 @@
 }
 
 .wpcf7-not-valid-tip {
-	color: #dc3232; /* Red */
+	color: #dc3232;
+	/* Red */
 	font-size: 1em;
 	font-weight: normal;
 	display: block;
@@ -74,7 +80,8 @@
 .wpcf7 .ajax-loader {
 	visibility: hidden;
 	display: inline-block;
-	background-color: #23282d; /* Dark Gray 800 */
+	background-color: #23282d;
+	/* Dark Gray 800 */
 	opacity: 0.75;
 	width: 24px;
 	height: 24px;
@@ -92,7 +99,8 @@
 .wpcf7 .ajax-loader::before {
 	content: '';
 	position: absolute;
-	background-color: #fbfbfc; /* Light Gray 100 */
+	background-color: #fbfbfc;
+	/* Light Gray 100 */
 	top: 4px;
 	left: 4px;
 	width: 6px;
