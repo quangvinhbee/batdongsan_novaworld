@@ -2400,3 +2400,10 @@ button.close {
     width: .8rem;
     height: .4rem
 }
+
+.tooltip .arrow {
+    position: absolute;
+    display: block;
+    width: .8rem;
+    height: .4rem
+}
