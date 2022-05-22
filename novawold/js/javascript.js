@@ -2,7 +2,7 @@
 setInterval(function () {
     var check = window.localStorage.getItem('form')
     if (!check) $('#exampleModalLong').modal();
-}, 10000);
+}, 15000);
 
 
 const scriptURL = 'https://script.google.com/macros/s/AKfycbyzF4Tq4lvPHyDFhmMdYoSUJUbU-uqdqXTl7DGIa0YZLR_bkZjNk277EnlcoBO4QaBm/exec'
