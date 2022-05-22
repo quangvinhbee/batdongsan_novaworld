@@ -8113,6 +8113,7 @@ textarea.form-control {
 .ftco-bg-dark {
   background: #3c312e; }
 
+
 .ftco-footer {
   font-size: 16px;
   padding: 7em 0;
@@ -9030,3 +9031,131 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+    .back-top{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: fixed;
+      bottom: 0;
+      flex-wrap: wrap;
+      padding-bottom: 20px;
+      right: 0;
+      width: 120px;
+      z-index: 100;
+    }
+    .back {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      width: 100%;
+      box-shadow: 0 0 0 0 #2196f3;
+      height: 45px;
+      width:45px;
+      margin: 0 auto;
+      border-radius: 50%;
+      font-size: 20px;
+      animation: wiggle 1s linear infinite;
+          background-color: #dd9933;
+          color: #fff;
+          animation: anim 1s;
+      animation-iteration-count: infinite;
+    }
+
+    .back img {
+      font-weight: 100;
+      width: 20px;
+    }
+    .phone{
+      margin: 20px 0;
+      width: 100%;
+      animation: wiggle 1s linear infinite;
+       animation: anim 1s;
+      animation-iteration-count: infinite;
+    }
+    .phone-icon{
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 0 0 #2196f3;
+         background-color: #81d742;
+      height: 45px;
+      width:45px;
+      border-radius: 50%;
+      font-size: 30px;
+    }
+    .zalo{
+        width: 100%;
+        animation: wiggle 1s linear infinite;
+        animation: anim 1s;
+      animation-iteration-count: infinite;
+    }
+    .zalo-icon{cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 0 0 #2196f3;
+      background-color: rgba(33,150,243,.7);
+     height: 45px;
+      width:45px;
+      border-radius: 50%;
+      
+    }
+    .zalo-icon img{
+      width: 30px;
+    }
+    .back-top-to i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+    }
+    .back-top-to:hover {
+    color: #fff;
+    }
+    .back-top-to.active {
+    visibility: visible;
+    opacity: 1;
+    }
+
+    @keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+
+@keyframes anim {
+  0% {
+    transform: rotate(0deg) sacle(1);
+  }
+  25% {
+    transform: rotate(0deg) scale(1.3);
+  }
+  50% {
+    transform: rotate(0deg) scale(1.3);
+  }
+  100% {
+    transform: rotate(0deg) scale(1);
+  }
+}
+  
