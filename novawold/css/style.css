@@ -10640,6 +10640,45 @@ h5,
   cursor: pointer;
   padding-right: 0;
   text-transform: uppercase;
+  letter-spacing: .5em;
+  color: #d4d4d4;
+  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 300; }
+
+.ftco-section .ftco-primary-title {
+  margin-top: 0;
+  margin-bottom: 30px; }
+
+.media-custom {
+  background: #fff; }
+  .media-custom .media-body .name {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 0;
+    color: #8d703b; }
+  .media-custom .media-body .position {
+    font-size: 13px;
+    color: #d9d9d9; }
+
+.about-author .desc h3 {
+  font-size: 24px; }
+
+.ftco-section {
+  padding: 6em 0;
+  position: relative; }
+  @media (max-width: 767.98px) {
+    .ftco-section {
+      padding: 6em 0; } }
+  @media (min-width: 768px) {
+    .ftco-section .container-fluid {
+      padding: 0 4em; } }
+
+.ftco-bg-dark {
+  background: #3c312e; }
+
+
+.ftco-footer {
+
   font-size: 16px;
   letter-spacing: .1em;
 }
@@ -11805,6 +11844,137 @@ textarea.form-control {
   }
 
   100% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -136px; } }
+
+
+    .back-top{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: fixed;
+      bottom: 0;
+      flex-wrap: wrap;
+      padding-bottom: 20px;
+      right: 0;
+      width: 120px;
+      z-index: 100;
+    }
+    .back {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      width: 100%;
+      box-shadow: 0 0 0 0 #2196f3;
+      height: 45px;
+      width:45px;
+      margin: 0 auto;
+      border-radius: 50%;
+      font-size: 20px;
+      animation: wiggle 1s linear infinite;
+          background-color: #dd9933;
+          color: #fff;
+          animation: anim 1s;
+      animation-iteration-count: infinite;
+    }
+
+    .back img {
+      font-weight: 100;
+      width: 20px;
+    }
+    .phone{
+      margin: 20px 0;
+      width: 100%;
+      animation: wiggle 1s linear infinite;
+       animation: anim 1s;
+      animation-iteration-count: infinite;
+    }
+    .phone-icon{
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 0 0 #2196f3;
+         background-color: #81d742;
+      height: 45px;
+      width:45px;
+      border-radius: 50%;
+      font-size: 30px;
+    }
+    .zalo{
+        width: 100%;
+        animation: wiggle 1s linear infinite;
+        animation: anim 1s;
+      animation-iteration-count: infinite;
+    }
+    .zalo-icon{cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 0 0 #2196f3;
+      background-color: rgba(33,150,243,.7);
+     height: 45px;
+      width:45px;
+      border-radius: 50%;
+      
+    }
+    .zalo-icon img{
+      width: 30px;
+    }
+    .back-top-to i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+    }
+    .back-top-to:hover {
+    color: #fff;
+    }
+    .back-top-to.active {
+    visibility: visible;
+    opacity: 1;
+    }
+
+    @keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+
+@keyframes anim {
+  0% {
+    transform: rotate(0deg) sacle(1);
+  }
+  25% {
+    transform: rotate(0deg) scale(1.3);
+  }
+  50% {
+    transform: rotate(0deg) scale(1.3);
+  }
+  100% {
+    transform: rotate(0deg) scale(1);
+  }
+}
+  
+=======
     -webkit-box-shadow: 0 0 0 0 rgba(141, 112, 59, 0);
   }
 }
